@@ -230,4 +230,54 @@ header .headline button:hover {
   color: #777777;
   margin-top: 10px;
 }
+
+.portfolio {
+  padding-top: 120px;
+  background-color: #f7f7f7;
+  padding-bottom: 70px;
+}
+
+.portfolio .portfolio_title {
+  text-align: center;
+}
+
+.portfolio .portfolio_title h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.portfolio .portfolio_title h4 {
+  font-family: 'Noto Serif', serif;
+  color: #777777;
+  margin-top: 15px;
+}
+
+.portfolio .portfolio_box {
+  margin-top: 60px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 22px;
+}
+
+.portfolio .portfolio_box > figure {
+  margin-bottom: 18px;
+}
+
+.portfolio .portfolio_box > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+}
+
+.portfolio .portfolio_box > h3 {
+  font-size: 18px;
+}
+
+.portfolio .portfolio_box > p {
+  font-family: 'Noto Serif', serif;
+  color: #777777;
+  font-style: italic;
+}
 /*# sourceMappingURL=style.css.map */
