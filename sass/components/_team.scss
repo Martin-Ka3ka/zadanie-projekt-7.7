@@ -14,7 +14,7 @@
         }
 
         h4 {
-            font-family: 'Noto Serif', serif;
+            font-family: $font-Noto;
             color: $color-base-gray;
             margin-top: 15px;
         }
@@ -62,9 +62,9 @@
         a {
             width: 36px;
             height: 36px;
-            border: 3px solid black;
+            border: 3px solid $color-basic-black;
             display: block;
-            color: black;
+            color: $color-basic-black;
             border-radius: 50%;
             text-align: center;
             line-height: 36px;
@@ -78,49 +78,49 @@
 
     .thomson a:nth-of-type(1):hover {
         background-color: $color-twitter;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .thomson a:nth-of-type(2):hover {
         background-color: $color-facebook;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .thomson a:nth-of-type(3):hover {
         background-color: $color-pinterest;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .massimo a:nth-of-type(1):hover {
         background-color: $color-twitter;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .massimo a:nth-of-type(2):hover {
         background-color: $color-facebook;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .massimo a:nth-of-type(3):hover {
         background-color: $color-google;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .mason a:nth-of-type(1):hover {
         background-color: $color-facebook;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 
     .mason a:nth-of-type(2):hover {
         background-color: $color-pinterest;
-        color: white;
+        color: $color-base-white;
         border: none;
     }
 

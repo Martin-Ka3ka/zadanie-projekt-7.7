@@ -11,7 +11,7 @@
 body {
   width: 100%;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .row:before,
@@ -194,7 +194,7 @@ header .headline {
 header .headline h1 {
   font-weight: 300;
   font-size: 40px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
 }
 
@@ -244,7 +244,7 @@ header .headline button:hover {
 }
 
 .services .title_services h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   margin-top: 15px;
 }
@@ -284,7 +284,7 @@ header .headline button:hover {
 }
 
 .services .box_services > p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   text-align: center;
   color: #777777;
   margin-top: 10px;
@@ -315,7 +315,7 @@ header .headline button:hover {
 }
 
 .portfolio .portfolio_title h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   margin-top: 15px;
 }
@@ -352,7 +352,7 @@ header .headline button:hover {
 }
 
 .portfolio .portfolio_box > p {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   font-style: italic;
 }
@@ -383,7 +383,7 @@ header .headline button:hover {
 }
 
 .about .about_title h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   margin-top: 15px;
 }
@@ -404,7 +404,7 @@ header .headline button:hover {
 }
 
 .about .about_description p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   margin-top: 8px;
   line-height: 1.3;
   color: #777;
@@ -485,7 +485,7 @@ header .headline button:hover {
 }
 
 .team .team_title h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   margin-top: 15px;
 }
@@ -655,7 +655,7 @@ header .headline button:hover {
 }
 
 .contact .contact_title h4 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   color: #777777;
   margin-top: 15px;
 }
@@ -678,7 +678,7 @@ header .headline button:hover {
   margin-bottom: 42px;
   font-size: 12px;
   padding-left: 15px;
-  border: 1px solid gray;
+  border: 1px solid #e3e3e3;
   outline: none;
 }
 
@@ -694,31 +694,31 @@ header .headline button:hover {
       flex-basis: 100%;
   padding-left: 15px;
   padding-top: 10px;
-  border: 1px solid gray;
+  border: 1px solid #e3e3e3;
   outline: none;
 }
 
 .contact .contact_form_right form ::-webkit-input-placeholder {
   font-size: 14px;
-  color: gray;
+  color: #777777;
   font-weight: 800;
 }
 
 .contact .contact_form_right form :-ms-input-placeholder {
   font-size: 14px;
-  color: gray;
+  color: #777777;
   font-weight: 800;
 }
 
 .contact .contact_form_right form ::-ms-input-placeholder {
   font-size: 14px;
-  color: gray;
+  color: #777777;
   font-weight: 800;
 }
 
 .contact .contact_form_right form ::placeholder {
   font-size: 14px;
-  color: gray;
+  color: #777777;
   font-weight: 800;
 }
 
