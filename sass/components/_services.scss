@@ -21,6 +21,8 @@
 
     .box_services {
         margin-top: 55px;
+        transition: .6s;
+        padding: 8px;
 
 
 
@@ -54,6 +56,11 @@
             line-height: 1.8;
         }
 
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 5px 5px 35px 5px #191A1C;
+
+        }
     }
 
 }

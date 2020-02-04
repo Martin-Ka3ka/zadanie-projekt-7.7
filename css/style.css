@@ -251,6 +251,9 @@ header .headline button:hover {
 
 .services .box_services {
   margin-top: 55px;
+  -webkit-transition: .6s;
+  transition: .6s;
+  padding: 8px;
 }
 
 .services .box_services > div {
@@ -286,6 +289,13 @@ header .headline button:hover {
   color: #777777;
   margin-top: 10px;
   line-height: 1.8;
+}
+
+.services .box_services:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 35px 5px #191A1C;
+          box-shadow: 5px 5px 35px 5px #191A1C;
 }
 
 .portfolio {
@@ -541,6 +551,61 @@ header .headline button:hover {
   border-radius: 50%;
   text-align: center;
   line-height: 36px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.team .team_social_media a span {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.team .thomson a:nth-of-type(1):hover {
+  background-color: #00aced;
+  color: white;
+  border: none;
+}
+
+.team .thomson a:nth-of-type(2):hover {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.team .thomson a:nth-of-type(3):hover {
+  background-color: #cb2028;
+  color: white;
+  border: none;
+}
+
+.team .massimo a:nth-of-type(1):hover {
+  background-color: #00aced;
+  color: white;
+  border: none;
+}
+
+.team .massimo a:nth-of-type(2):hover {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.team .massimo a:nth-of-type(3):hover {
+  background-color: #da2713;
+  color: white;
+  border: none;
+}
+
+.team .mason a:nth-of-type(1):hover {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.team .mason a:nth-of-type(2):hover {
+  background-color: #cb2028;
+  color: white;
+  border: none;
 }
 
 .team .team_content {

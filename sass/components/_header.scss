@@ -83,7 +83,7 @@ header {
             cursor: pointer;
 
             &:hover {
-                background-color: #f1bd09;
+                background-color: $color-btn-hover;
                 transform: scale(1.1);
             }
         }
