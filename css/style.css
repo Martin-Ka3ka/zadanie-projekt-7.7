@@ -131,7 +131,7 @@ body {
 
 header {
   height: 75vh;
-  background-image: url("/images/jumbotron.jpg");
+  background-image: url("../images/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
