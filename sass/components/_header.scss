@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 75vh;
     background-image: url("/images/jumbotron.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,6 +7,9 @@ header {
 
     figure {
         margin-top: 22px;
+        position: fixed;
+        top: 18px;
+        left: 20%;
 
         img {
             max-width: 100%;
@@ -16,7 +19,9 @@ header {
 
     nav {
         color: white;
-
+        position: fixed;
+        top: 18px;
+        left: 50%;
 
         ul {
             list-style-type: none;
@@ -75,6 +80,7 @@ header {
             outline: none;
             margin-top: 40px;
             transition: .4s;
+            cursor: pointer;
 
             &:hover {
                 background-color: #f1bd09;

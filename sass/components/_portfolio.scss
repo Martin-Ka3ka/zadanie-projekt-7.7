@@ -26,13 +26,21 @@
         background-color: $color-base-white;
         padding-bottom: 22px;
 
+
         >figure {
             margin-bottom: 18px;
+            overflow: hidden;
 
             >img {
                 width: 100%;
                 object-fit: cover;
                 height: 300px;
+                cursor: pointer;
+                transition: .5s;
+
+                &:hover {
+                    transform: rotate(15deg) scale(1.3);
+                }
             }
         }
 

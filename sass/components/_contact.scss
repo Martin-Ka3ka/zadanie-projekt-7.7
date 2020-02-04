@@ -1,0 +1,100 @@
+.contact {
+    background-color: rgb(0, 0, 0);
+    background-image: url("../images/contact-background.png");
+    background-repeat: no-repeat;
+    background-position: 1000px 185px;
+    padding-bottom: 90px;
+
+    .contact_title {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 60px;
+
+        h2 {
+            margin-top: 130px;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-family: 'Noto Serif', serif;
+            color: $color-base-gray;
+            margin-top: 15px;
+        }
+    }
+
+    .contact_form_left {
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border-radius: 6px;
+                flex-basis: 50px;
+                font-weight: 700;
+                margin-bottom: 42px;
+                font-size: 12px;
+                padding-left: 15px;
+                border: 1px solid gray;
+                outline: none;
+            }
+
+        }
+    }
+
+    .contact_form_right {
+
+        form {
+            display: flex;
+
+
+            textarea {
+                border-radius: 6px;
+                flex-basis: 100%;
+                padding-left: 15px;
+                padding-top: 10px;
+                border: 1px solid gray;
+                outline: none;
+            }
+
+            ::placeholder {
+                font-size: 14px;
+                color: gray;
+                font-weight: 800;
+            }
+        }
+
+    }
+
+    .contact_button {
+        text-align: center;
+
+        button {
+            text-align: center;
+            background-color: $color-base-yellow;
+            color: $color-base-white;
+            border: none;
+            width: 240px;
+            height: 62px;
+            border-radius: 3px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+            outline: none;
+            margin-top: 5px;
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f1bd09;
+                transform: scale(1.1);
+            }
+        }
+
+    }
+
+
+
+}
